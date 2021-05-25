@@ -1,0 +1,115 @@
+/* CSS Document */
+.head {
+	margin: 0;
+	background: #000000;
+}
+
+ul {
+	width: 200px;
+	margin: auto;
+}
+.heads {
+	float: right;
+	margin-right: 0px auto;
+	
+	color: #CBCBCB;
+	display:inline-block;	
+}
+.heads button{
+	border-radius: 5%;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.heada {
+	display: inline-block;
+}
+.heada li {
+	list-style: none;
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 10px;
+}
+.carousel-indicators li{
+	border-radius: 0%;
+	width: 30px;
+	height: 5px;
+}
+.carousel-indicators .active{
+	border-radius: 0%;
+	width: 30px;
+	height: 5px;
+}
+.name h {
+	
+	display: block;
+	 text-align: center;
+	font-weight: 100;
+	font-size: 48px;
+	
+}
+.link{
+	display: flex;
+ 	justify-content: space-between;
+	align-items: center;
+}
+.link p{
+	font-weight: 100;
+	font-size: 24px;
+}
+.link select{
+	border-radius: 25%;
+	color:  #808080;
+	float: right;
+
+}
+.linka{
+	display: flex;
+	 justify-content: flex-end;
+}
+.row {
+	
+	float: right;
+	margin: 0;
+	padding: 0;
+	
+}
+.boss {
+	border: 2px solid #909090;
+	border-radius: 5%;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	margin-right: 300px;
+	
+	
+}
+	
+.rap {
+	width: 400px;
+	height: 270px;
+	position: relative;
+}
+.boss:nth-of-type(n) {
+	box-shadow: 1px 1px 1px 1px #909090;
+}
+.boss:nth-last-of-type(2) {
+	box-shadow: 3px 3px 0px #ccc inset, -3px -3px 3px 0px #ccc inset;
+}
+/*添加阴影：
+         spread:设置阴影的扩散
+        inset:设置阴影为内阴影
+         box-shadow:offsetX offsetY blur spread color inset*/
+
+      /*需求：获取前四个item元素*/
+/*.trat:nth-of-type(-n + 4) {
+	box-shadow: 3px 3px 3px 0px #ccc;
+}
+.trat:nth-last-of-type(1) {
+	box-shadow: 3px 3px 3px 0px #ccc inset, -3px -3px 3px 0px #ccc inset;
+}*/
+.ros {
+	position: absolute;
+	margin-left: 0 auto;
+}
